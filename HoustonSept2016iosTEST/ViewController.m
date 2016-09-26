@@ -25,5 +25,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction) submitbuttonpressed {
+    
+    self.greetinglabel.text = self.greetingtextfield.text;
+    
+    
+}
 
 @end

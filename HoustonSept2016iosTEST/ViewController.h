@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (nonatomic,weak) IBOutlet UITextField *greetingtextfield;
+@property (nonatomic,weak) IBOutlet UILabel *greetinglabel;
 
 @end
 
